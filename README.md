@@ -15,7 +15,7 @@ It showcases my profile, education, skills, projects, and contact information in
 ## Project Links
 * **Video Demo:** 
 * **GitHub Repository:** [Villanueva_Resume Repo](https://github.com/Noweehh-byte/Resume-last-boss)
-* **Live Website:** [View on GitHub Pages](file:///C:/Users/Noweeh/Desktop/Villanueva_Resume/index.html#contact)
+* **Live Website:** [View on GitHub Pages](https://noweehh-byte.github.io/Resume-last-boss/)
 
 
 ## AI Use Declaration
