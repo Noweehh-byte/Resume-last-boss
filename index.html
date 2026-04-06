@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="toggleMode">🌙</button>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <p id="welcome">Welcome!</p>
+        <img src="Images/me.jpg" alt="Profile Photo" width="150">
+        <p class="name">Junnel R. Villanueva</p>
+        <p>villanueva.junnel11@gmail.com</p>
+        <p>Cagayan de Oro City, Philippines</p>
+    </section>
+</div>
+
+<div class="container">
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University of Science and Technology of Southern Philippines</strong></p>
+        <p>Bachelor of Science in Information Technology (BSIT)</p>
+    </section>
+</div>
+
+<div class="container">
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skillList">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+</div>
+
+<div class="container">
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul id="projectList">
+            <li>Web App</li>
+            <li>Online Event Registration System</li>
+        </ul>
+    </section>
+</div>
+
+<div class="container">
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name"><br>
+            <input type="email" id="email" placeholder="Email"><br>
+            <textarea id="message" placeholder="Message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    <p id="formMsg"></p>
+    </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
